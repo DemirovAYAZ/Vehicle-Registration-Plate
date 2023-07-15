@@ -1,0 +1,93 @@
+body{
+    font-family: 'Barlow', sans-serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+}
+.plate-outer{
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+}
+.car-plate{
+    position: absolute;
+    border: 10px solid #000;
+    width: 760px;
+    height: 260px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.plate-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 200px;
+}
+.flag{
+    background: url("https://www.worldcountriesforkids.com/wp-content/uploads/2020/06/azerbaijan.png") center/cover;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+}
+.plate-country{
+    text-align: center;
+    height: 100%;
+    position: absolute;
+}
+.plate-number{
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.number {
+    width: 100%;
+    flex-wrap: wrap;
+    display: inline;
+    font-size: 6em;
+    font-weight: 700;
+    transform: scaleY(1.5);
+}
+.country-name{
+    font-size: 3em;
+    letter-spacing: 3px;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+button{
+    position: absolute;
+    bottom: 15%;
+    right: 43%;
+    width:200px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    font-size: 1em;
+    font-weight: 700;
+    
+}
+.h2{
+    position: absolute;
+    bottom: 7%;
+    right: 45%;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+#region-name{
+    right: 30%;
+    width: 200px;
+    text-align: left;
+}

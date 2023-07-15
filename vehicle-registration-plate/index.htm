@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="plate.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="plate-outer">
+            <div class="car-plate">
+                <div class="plate-inner">
+                    <div class="plate-country">
+                        <div class="flag"></div>
+                        <div class="country-name">AZ</div>
+                    </div>
+                    <div class="plate-number">
+                        <h2 class="number" id="region">00</h2>
+                        <h2 class="number">-</h2>
+                        <h2 class="number" id="serie">AA</h2>
+                        <h2 class="number">-</h2>
+                        <h2 class="number" id="number">000</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="createRandomPlate()">Generate Plate</button>
+        <h2 class="h2">Your Region => <h2 class="h2" id="region-name"></h2></h2>
+    </div>
+
+    <script src="plate.js"></script>
+</body>
+</html>
